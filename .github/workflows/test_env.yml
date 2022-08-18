@@ -9,5 +9,8 @@ jobs:
         echo "testit"
         PTD=1249435
         echo ${PTD}
+        echo "::set-output name=task-def::${PTD}"
     - name: testi2
-      run: echo ${PTD}
+      run: echo ${TASK_DEF}
+      env:
+          TASK_DEF: ${{ steps.present-task-def.outputs.task-def }}
