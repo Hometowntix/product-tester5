@@ -16,5 +16,5 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: |
-          EXPORT PTD=1249435
-      - run: echo "${PTD}"
+          PTD=1249435
+      - run: echo "$PTD"
