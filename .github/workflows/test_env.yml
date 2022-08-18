@@ -6,6 +6,6 @@ jobs:
     steps: 
     - name: testit
       run: |
-      echo "testit"
-      PTD=1249435
-      echo ${PTD}
+        echo "testit"
+        PTD=1249435
+        echo ${PTD}
