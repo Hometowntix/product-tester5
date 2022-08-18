@@ -17,4 +17,4 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: |
           PTD=1249435
-      - run: echo ${PTD}
+      - run: echo "${PTD}"
