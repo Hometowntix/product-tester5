@@ -15,6 +15,5 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: |
-          PTD=1249435
+      - run: echo "PTD=1249435" >> $GITHUB_ENV
       - run: echo "::$PTD::"
