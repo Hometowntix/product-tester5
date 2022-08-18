@@ -9,3 +9,4 @@ jobs:
         echo "testit"
         PTD=1249435
         echo ${PTD}
+      run: echo ${PTD}
